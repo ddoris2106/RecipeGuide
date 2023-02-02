@@ -1,13 +1,41 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --bg-dark-purple: #A979D9;
+  --bg-dark-pink: #D991D4;
+  --bg-light-purple: #ECD8F2;
+  --bg-white: #F2F0F2;
+
+  --text-white: var(--bg-white);
+  --text-black: #230C33;
+  --text-purple: var(--bg-dark-pink);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html, *, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'EB Garamond', serif;
+}
+
+
+
+body {
+  /* @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&display=swap');  */
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'EB Garamond', serif;
+  background-color: var(--bg-dark-purple);
+}
+
+
+#root{
+  padding: 0; 
+  margin: 0;
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  /* box-sizing: border-box; */
 }
