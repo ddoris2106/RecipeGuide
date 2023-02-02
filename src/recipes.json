@@ -1,0 +1,134 @@
+{
+    "authors": [
+        {
+            "id": "a-001",
+            "name": "Emmanuel Duverneau",
+            "alias": "", 
+            "primary": "name"
+        },
+        {
+            "id": "a-002",
+            "name": "Sonny Hurrell",
+            "alias": "That Dude Can Cook",
+            "primary": "name"
+        },
+        {
+            "id": "a-003",
+            "name": "Tim Reynolds",
+            "alias": "That Cast Iron Guy",
+            "primary": "alias"
+        },
+        {
+            "id": "a-004",
+            "name": "Franzie V",
+            "alias": "",
+            "primary": "name"
+        },
+        {
+            "id": "a-005",
+            "name": "Sadiyah Ali",
+            "alias": "Sadiyah's Kitchen",
+            "primary": "alias"
+        },
+        {
+            "id": "a-006",
+            "name": "Niall Kirkland",
+            "alias": "The Good Bite",
+            "primary": "alias"
+        },
+        {
+            "id": "a-007",
+            "name": "",
+            "alias": "Ms Shi & Mr He",
+            "primary": "alias"
+        },
+        {
+            "id": "a-008",
+            "name": "August",
+            "alias": "There's Food At Home",
+            "primary": "alias"
+        },
+        {
+            "id": "a-009",
+            "name": "Shereen Pavlides",
+            "alias": "Cooking With Shereen",
+            "primary": "alias"
+        },
+        {
+            "id": "a-010",
+            "name": "Robbie Bell",
+            "alias": "",
+            "primary": "name"
+        },
+        {
+            "id": "a-011",
+            "name": "Gordon Ramsay",
+            "alias": "",
+            "primary": "name"
+        },
+        {
+            "id": "a-012",
+            "name": "Hajar Larbah",
+            "alias": "Moribyan",
+            "primary": "alias"
+        },
+        {
+            "id": "a-013",
+            "name": "Devan Rajkumar",
+            "alias": "Chef Dev",
+            "primary": "alias"
+        },
+        {
+            "id": "a-014",
+            "name": "",
+            "alias": "Shreya's Kitchen",
+            "primary": "alias"
+        },
+        {
+            "id": "a-015",
+            "name": "Natasha Greene",
+            "alias": "Terri-Ann's Kitchen",
+            "primary": "alias"
+        },
+        {
+            "id": "a-016",
+            "name": "",
+            "alias": "Asili Glam Cooks",
+            "primary": "alias"
+        },
+        {
+            "id": "a-017",
+            "name": "",
+            "alias": "Eats By Ramya",
+            "primary": "alias"
+        },
+        {
+            "id": "a-018",
+            "name": "Judith Belle",
+            "alias": "The Belle Life",
+            "primary": "alias"
+        },
+        {
+            "id": "a-019",
+            "name": "Ahmad  Alzahabi",
+            "alias": "The Golden Balance",
+            "primary": "alias"
+        },
+        {
+            "id": "a-020",
+            "name": "",
+            "alias": "Chaz's Cuisines",
+            "primary": "alias"
+        }
+    ],
+    "recipes": [
+        {
+            "id": "r-001",
+            "name": "",
+            "creator_id": "",
+            "description": "",
+            "link": "",
+            "favorite": ""
+        }
+    ]
+}

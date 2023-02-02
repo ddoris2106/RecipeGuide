@@ -1,11 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import Nav from './Nav';
+import FeaturedPage from './FeaturedPage';
+import GridPage from './GridPage';
 
 import styled, {css, keyframes} from 'styled-components';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
+
+// Function to set up keyframe animation to move the background
 const transitionBackground = (props) => {
 
+    // Transition background forwards
     const transitionBackground = keyframes`
         0%{
             background-image: linear-gradient(${props.fromColor1} 15%, ${props.fromColor2} 70%);
@@ -51,6 +56,7 @@ const transitionBackground = (props) => {
         }
     `;
 
+    // Transition background backwards
     const transitionBackgroundBack = keyframes`
         0%{
             background-image: linear-gradient(${props.toColor1} 15%, ${props.toColor2} 90%);
@@ -87,7 +93,7 @@ const transitionBackground = (props) => {
         }
     `;
 
-    let animName = props.direction == "normal" ? transitionBackground : transitionBackgroundBack;
+    let animName = props.direction === "normal" ? transitionBackground : transitionBackgroundBack;
 
 
     return css`
@@ -115,12 +121,9 @@ S.RecipeApp = styled.div`
 
     ${props => transitionBackground(props)}
 
-    // animation-direction: ${props => props.direction};
-    // background-image: linear-gradient(var(--fromColor1) 15%, var(--fromColor2) 70%);
-
 
     // background-image: linear-gradient(var(--toColor1) 15%, var(--toColor2) 70%);
-    // transition: background-image ease-in-out 0.75s;
+    transition: background-image ease-in-out 0.05s;
 
 `;
 
@@ -139,7 +142,6 @@ function RecipeApp() {
 
     const handleColorIndex = (index, dir) => {
         setIsLoading(true);
-        console.log(dir);
         setDirection(dir);
         setColorIndex(index);
     }
@@ -157,12 +159,19 @@ function RecipeApp() {
 
     return(
         <Router>
-            <S.RecipeApp className={`App ${isLoading ? "pageLoading" : ""}`} fromColor1={colorWheel[colorIndex]} fromColor2={colorWheel[colorIndex + 1]} toColor1={colorWheel[colorIndex + 2]} toColor2={colorWheel[colorIndex + 3]} direction={direction} >
+            <S.RecipeApp 
+                className={`App ${isLoading ? "pageLoading" : ""}`} 
+                fromColor1={colorWheel[colorIndex]} 
+                fromColor2={colorWheel[colorIndex + 1]} 
+                toColor1={colorWheel[colorIndex + 2]} 
+                toColor2={colorWheel[colorIndex + 3]} 
+                direction={direction} 
+            >
                 <Nav handleColorIndex={handleColorIndex} />
-                {/* <Routes>  */}
-                    {/* <Route path="/" exact component={} />
-                    <Route path="" component={} /> */}
-                {/* </Routes> */}
+                <Routes> 
+                    <Route path="/" exact element={<FeaturedPage />} />
+                    <Route path="/grid" element={<GridPage />} />
+                </Routes>
             </S.RecipeApp>
         </Router>
     );

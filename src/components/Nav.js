@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 import styled from 'styled-components';
-// import {Link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 const S = {};
 
@@ -31,13 +31,13 @@ function Nav({handleColorIndex}) {
     const handleClick = (pageToRender) => {
 
         // If the button is clicked to switch to 
-        if(pageToRender == "featured"){
+        if(pageToRender === "featured"){
             setPageBeingRendered("featured");
 
             handleColorIndex(2, "reverse");
         }
 
-        if(pageToRender == "grid"){
+        if(pageToRender === "grid"){
             setPageBeingRendered("grid");
 
             handleColorIndex(2, "normal");
@@ -48,9 +48,13 @@ function Nav({handleColorIndex}) {
         <S.Nav className="Nav">
             <S.Button ></S.Button>
             {
-                (pageBeingRendered == "featured" ? 
-                    <S.Button onClick={() => handleClick("grid")} >Grid</S.Button> :
-                    <S.Button onClick={() => handleClick("featured")} >Featured</S.Button>)
+                (pageBeingRendered === "featured" ? 
+                    <Link to="/grid">
+                        <S.Button onClick={() => handleClick("grid")} >Grid</S.Button>
+                    </Link> :
+                    <Link to="/">
+                        <S.Button onClick={() => handleClick("featured")} >Featured</S.Button>
+                    </Link>)
             }
             
             
