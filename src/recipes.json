@@ -3,7 +3,7 @@
         {
             "id": "a-001",
             "name": "Emmanuel Duverneau",
-            "alias": "", 
+            "alias": null, 
             "primary": "name"
         },
         {
@@ -21,7 +21,7 @@
         {
             "id": "a-004",
             "name": "Franzie V",
-            "alias": "",
+            "alias": null,
             "primary": "name"
         },
         {
@@ -38,7 +38,7 @@
         },
         {
             "id": "a-007",
-            "name": "",
+            "name": null,
             "alias": "Ms Shi & Mr He",
             "primary": "alias"
         },
@@ -57,13 +57,13 @@
         {
             "id": "a-010",
             "name": "Robbie Bell",
-            "alias": "",
+            "alias": null,
             "primary": "name"
         },
         {
             "id": "a-011",
             "name": "Gordon Ramsay",
-            "alias": "",
+            "alias": null,
             "primary": "name"
         },
         {
@@ -80,7 +80,7 @@
         },
         {
             "id": "a-014",
-            "name": "",
+            "name": null,
             "alias": "Shreya's Kitchen",
             "primary": "alias"
         },
@@ -92,13 +92,13 @@
         },
         {
             "id": "a-016",
-            "name": "",
+            "name": null,
             "alias": "Asili Glam Cooks",
             "primary": "alias"
         },
         {
             "id": "a-017",
-            "name": "",
+            "name": null,
             "alias": "Eats By Ramya",
             "primary": "alias"
         },
@@ -116,19 +116,278 @@
         },
         {
             "id": "a-020",
-            "name": "",
+            "name": null,
             "alias": "Chaz's Cuisines",
+            "primary": "alias"
+        },
+        {
+            "id": "a-021",
+            "name": "Celine Tran",
+            "alias": "Jellybean Celine",
             "primary": "alias"
         }
     ],
     "recipes": [
         {
             "id": "r-001",
+            "name": "Chicken Inasal",
+            "creator_id": "a-004",
+            "description": "Oven-baked chicken quarters marinated in a savory, ginger and garlic-infused soy sauce.",
+            "link": "https://www.tiktok.com/t/ZTRGeHocu/",
+            "image": "",
+            "favorite": true
+        },
+        {
+            "id": "r-002",
+            "name": "Somali Rice",
+            "creator_id": "a-005",
+            "description": "An East African, spice-infused rice dish.",
+            "link": "https://www.sadiyahskitchen.com/recipes/somali-bariis-rice",
+            "image": "",
+            "favorite": true
+        },
+        {
+            "id": "r-003",
+            "name": "Coconut Rice",
+            "creator_id": "a-015",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Dui id ornare arcu odio ut sem nulla pharetra diam. Ac orci phasellus egestas tellus rutrum.",
+            "link": "https://youtu.be/-fUeIUSHqfY",
+            "image": "",
+            "favorite": true
+        },
+        {
+            "id": "r-004",
+            "name": "Baked Chicken",
+            "creator_id": "a-015",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Dui id ornare arcu odio ut sem nulla pharetra diam. Ac orci phasellus egestas tellus rutrum.",
+            "link": "https://youtu.be/0Em4qwlpx-Y",
+            "image": "",
+            "favorite": false
+        },
+        {
+            "id": "r-005",
+            "name": "Ta Lang",
+            "creator_id": "a-007",
+            "description": "Asain, stir fried chowmein dish.",
+            "link": "https://msshiandmrhe.com/stir-fry-spaghetti/",
+            "image": "",
+            "favorite": true
+        },
+        {
+            "id": "r-006",
+            "name": "Baked Tilapia",
+            "creator_id": "a-005",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Dui id ornare arcu odio ut sem nulla pharetra diam. Ac orci phasellus egestas tellus rutrum.",
+            "link": "https://www.tiktok.com/t/ZTRGes1na/",
+            "image": "",
+            "favorite": false
+        },
+        {
+            "id": "r-007",
+            "name": "Chicken Piccata",
+            "creator_id": "a-009",
+            "description": "Crispy chicken covered with a tangy, rich lemon sauce.",
+            "link": "https://www.tiktok.com/t/ZTRGe9W9L/",
+            "image": "",
+            "favorite": true
+        },
+        {
+            "id": "r-008",
+            "name": "Sauteed Sweet Potatoes",
+            "creator_id": "a-010",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Dui id ornare arcu odio ut sem nulla pharetra diam. Ac orci phasellus egestas tellus rutrum.",
+            "link": "https://www.tiktok.com/t/ZTRGeunfe/",
+            "image": "",
+            "favorite": false
+        },
+        {
+            "id": "r-009",
+            "name": "Mushroom Tomato Pasta",
+            "creator_id": "a-010",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Dui id ornare arcu odio ut sem nulla pharetra diam. Ac orci phasellus egestas tellus rutrum.",
+            "link": "https://www.tiktok.com/t/ZTRGetnGq/",
+            "image": "",
+            "favorite": false
+        },
+        {
+            "id": "r-010",
+            "name": "Salmon, Potates and Asparagus",
+            "creator_id": "a-001",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Dui id ornare arcu odio ut sem nulla pharetra diam. Ac orci phasellus egestas tellus rutrum.",
+            "link": null,
+            "image": "",
+            "favorite": false
+        },
+        {
+            "id": "r-011",
+            "name": "Roasted Brussels Sprouts",
+            "creator_id": "a-012",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Dui id ornare arcu odio ut sem nulla pharetra diam. Ac orci phasellus egestas tellus rutrum.",
+            "link": "https://moribyan.com/roasted-brussels-sprouts/",
+            "image": "",
+            "favorite": true
+        },
+        {
+            "id": "r-012",
+            "name": "Baked Ziti",
+            "creator_id": "a-012",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Dui id ornare arcu odio ut sem nulla pharetra diam. Ac orci phasellus egestas tellus rutrum.",
+            "link": "https://moribyan.com/baked-ziti/",
+            "image": "",
+            "favorite": true
+        },
+        {
+            "id": "r-013",
+            "name": "Tomato Salad",
+            "creator_id": "a-002",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Dui id ornare arcu odio ut sem nulla pharetra diam. Ac orci phasellus egestas tellus rutrum.",
+            "link": "https://www.tiktok.com/t/ZTRGdjRhx/",
+            "image": "",
+            "favorite": false
+        },
+        {
+            "id": "r-014",
+            "name": "Butter Garlic Spinach",
+            "creator_id": "a-002",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Dui id ornare arcu odio ut sem nulla pharetra diam. Ac orci phasellus egestas tellus rutrum.",
+            "link": "https://www.tiktok.com/t/ZTRGecGC3/",
+            "image": "",
+            "favorite": true
+        },
+        {
+            "id": "r-015",
+            "name": "Green Beans Salad",
+            "creator_id": "a-002",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Dui id ornare arcu odio ut sem nulla pharetra diam. Ac orci phasellus egestas tellus rutrum.",
+            "link": "https://www.tiktok.com/t/ZTRGespbJ/",
+            "image": "",
+            "favorite": false
+        },
+        {
+            "id": "r-016",
+            "name": "Buttery Garlic Green Beans",
+            "creator_id": null,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Dui id ornare arcu odio ut sem nulla pharetra diam. Ac orci phasellus egestas tellus rutrum.",
+            "link": "https://www.allrecipes.com/recipe/230103/buttery-garlic-green-beans/",
+            "image": "",
+            "favorite": true
+        },
+        {
+            "id": "r-017",
+            "name": "Seared Broccoli Salad",
+            "creator_id": "a-013",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Dui id ornare arcu odio ut sem nulla pharetra diam. Ac orci phasellus egestas tellus rutrum.",
+            "link": "https://www.tiktok.com/t/ZTRGe73uy/",
+            "image": "",
+            "favorite": true
+        },
+        {
+            "id": "r-018",
+            "name": "Street Corn",
+            "creator_id": "a-014",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Dui id ornare arcu odio ut sem nulla pharetra diam. Ac orci phasellus egestas tellus rutrum.",
+            "link": "https://www.tiktok.com/t/ZTRGewVmA/",
+            "image": "",
+            "favorite": true
+        },
+        {
+            "id": "r-019",
+            "name": "Smashed Roaseted Potatoes",
+            "creator_id": null,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Dui id ornare arcu odio ut sem nulla pharetra diam. Ac orci phasellus egestas tellus rutrum.",
+            "link": "https://www.tiktok.com/t/ZTRGdDD5C/",
+            "image": "",
+            "favorite": false
+        },
+        {
+            "id": "r-020",
+            "name": "Buttery Lemon Pasta",
+            "creator_id": "a-019",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Dui id ornare arcu odio ut sem nulla pharetra diam. Ac orci phasellus egestas tellus rutrum.",
+            "link": "https://www.instagram.com/reel/CWqi66QjrBi/?igshid=YmMyMTA2M2Y=",
+            "image": "",
+            "favorite": false
+        },
+        {
+            "id": "r-021",
+            "name": "Creamy Cajun Chicken Pasta",
+            "creator_id": "a-020",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Dui id ornare arcu odio ut sem nulla pharetra diam. Ac orci phasellus egestas tellus rutrum.",
+            "link": "https://www.instagram.com/reel/ClFUnrpJfRo/?igshid=YmMyMTA2M2Y=",
+            "image": "",
+            "favorite": true
+        },
+        {
+            "id": "r-022",
+            "name": "Halal-Style Chicken over Rice",
+            "creator_id": "a-017",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Dui id ornare arcu odio ut sem nulla pharetra diam. Ac orci phasellus egestas tellus rutrum.",
+            "link": "https://eatsbyramya.com/recipes/halal-cart-chicken-over-rice-for-one/",
+            "image": "",
+            "favorite": false
+        },
+        {
+            "id": "r-023",
+            "name": "Cucumber Sesame Salad",
+            "creator_id": null,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Dui id ornare arcu odio ut sem nulla pharetra diam. Ac orci phasellus egestas tellus rutrum.",
+            "link": "https://www.instagram.com/tv/CdYMI1OJter/?igshid=YmMyMTA2M2Y=",
+            "image": "",
+            "favorite": false
+        },
+        {
+            "id": "r-024",
+            "name": "Sunflower Potatoes",
+            "creator_id": "a-021",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Dui id ornare arcu odio ut sem nulla pharetra diam. Ac orci phasellus egestas tellus rutrum.",
+            "link": "https://www.tiktok.com/t/ZTRGSU32x/",
+            "image": "",
+            "favorite": false
+        },
+        {
+            "id": "r-025",
+            "name": "Rolled Egg Omelette",
+            "creator_id": "a-021",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Dui id ornare arcu odio ut sem nulla pharetra diam. Ac orci phasellus egestas tellus rutrum.",
+            "link": "https://www.tiktok.com/t/ZTRGSQ6vX/",
+            "image": "",
+            "favorite": true
+        },
+        {
+            "id": "r-026",
+            "name": "French Omelette",
+            "creator_id": "a-009",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Dui id ornare arcu odio ut sem nulla pharetra diam. Ac orci phasellus egestas tellus rutrum.",
+            "link": "https://www.tiktok.com/t/ZTRGSxVXV/",
+            "image": "",
+            "favorite": false
+        },
+        {
+            "id": "r-027",
+            "name": "Strawberry Milk",
+            "creator_id": "a-021",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Dui id ornare arcu odio ut sem nulla pharetra diam. Ac orci phasellus egestas tellus rutrum.",
+            "link": "https://www.tiktok.com/t/ZTRGSyv19/",
+            "image": "",
+            "favorite": false
+        },
+        {
+            "id": "r-028",
+            "name": "Potato Galette",
+            "creator_id": "a-009",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Dui id ornare arcu odio ut sem nulla pharetra diam. Ac orci phasellus egestas tellus rutrum.",
+            "link": "https://www.tiktok.com/t/ZTRGSyybY/",
+            "image": "",
+            "favorite": false
+        },
+        {
+            "id": "r-029",
             "name": "",
-            "creator_id": "",
-            "description": "",
+            "creator_id": "a-0",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Dui id ornare arcu odio ut sem nulla pharetra diam. Ac orci phasellus egestas tellus rutrum.",
             "link": "",
-            "favorite": ""
+            "image": "",
+            "favorite": false
         }
     ]
 }
