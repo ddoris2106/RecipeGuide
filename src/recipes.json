@@ -382,12 +382,12 @@
         },
         {
             "id": "r-029",
-            "name": "",
-            "creator_id": "a-0",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Dui id ornare arcu odio ut sem nulla pharetra diam. Ac orci phasellus egestas tellus rutrum.",
-            "link": "",
+            "name": "Banana Bread",
+            "creator_id": "a-001",
+            "description": "Sweet, thick banana bread, sprinkled with chocolate chips and roasted walnuts.",
+            "link": "https://www.tiktok.com/t/ZTRGfefrj/",
             "image": "",
-            "favorite": false
+            "favorite": true
         }
     ]
 }

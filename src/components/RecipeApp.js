@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
+import styled, {css, keyframes} from 'styled-components';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+
 import Nav from './Nav';
 import FeaturedPage from './FeaturedPage';
 import GridPage from './GridPage';
 
-import styled, {css, keyframes} from 'styled-components';
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 
 // Function to set up keyframe animation to move the background
@@ -105,6 +106,75 @@ const transitionBackground = (props) => {
 } 
 
 
+// Function to set up keyframe animation to move the background
+
+// Structure Taken From:
+// https://stackoverflow.com/questions/72221862/passing-a-direction-prop-into-styled-components-keyframe-component
+// https://github.com/styled-components/styled-components/issues/397
+const transitionBackgroundTest = (props) => {
+
+    // Transition background forwards
+    const transitionBackground = keyframes`
+        0%{
+            background-image: linear-gradient(${props.fromColor1} 15%, ${props.fromColor2} 100%, ${props.toColor1} 150%);
+        }
+        15%{
+            background-image: linear-gradient(${props.fromColor1} 7%, ${props.fromColor2} 70%, ${props.toColor1} 137%);
+        }
+        25%{
+            background-image: linear-gradient(${props.fromColor1} 0%, ${props.fromColor2} 50%, ${props.toColor1} 125%);
+        }
+        50%{
+            background-image: linear-gradient(${props.fromColor2} 0%, ${props.toColor1} 100%, ${props.toColor2} 150%);
+        }
+        75%{
+            background-image: linear-gradient(${props.toColor1} 75%, ${props.toColor2} 125%);
+        }
+        85%{
+            background-image: linear-gradient(${props.toColor1} 40%, ${props.toColor2} 100%);
+        }   
+        100%{
+            background-image: linear-gradient(${props.toColor1} 15%, ${props.toColor2} 70%);
+        }
+    `;
+
+    // Transition background backwards
+    const transitionBackgroundBack = keyframes`
+        0%{
+            background-image: linear-gradient(${props.toColor1} 15%, ${props.toColor2} 70%);
+        }
+        15%{
+            background-image: linear-gradient(${props.toColor1} 40%, ${props.toColor2} 100%);
+        }
+        25%{
+            background-image: linear-gradient(${props.toColor1} 75%, ${props.toColor2} 125%);
+        }
+        50%{
+            background-image: linear-gradient(${props.fromColor2} 0%, ${props.toColor1} 100%, ${props.toColor2} 150%);
+        }
+        75%{
+            background-image: linear-gradient(${props.fromColor1} 0%, ${props.fromColor2} 50%, ${props.toColor1} 125%);
+        }
+        85%{
+            background-image: linear-gradient(${props.fromColor1} 7%, ${props.fromColor2} 70%, ${props.toColor1} 137%);
+        }
+        100%{
+            background-image: linear-gradient(${props.fromColor1} 15%, ${props.fromColor2} 70%);
+        }
+    `;
+
+    let animName = props.direction === "normal" ? transitionBackground : transitionBackgroundBack;
+
+
+    return css`
+        animation: ${animName}; 
+        animation-timing-function: ease-out;
+        animation-duration: 1.12s;
+        animation-fill-mode: forwards;
+    `;
+} 
+
+// https://medium.com/inturn-eng/naming-styled-components-d7097950a245
 const S = {};
 
 S.RecipeApp = styled.div`
@@ -119,11 +189,11 @@ S.RecipeApp = styled.div`
     padding: 0;
     background-size: cover;
 
-    ${props => transitionBackground(props)}
+    ${props => transitionBackgroundTest(props)}
 
 
     // background-image: linear-gradient(var(--toColor1) 15%, var(--toColor2) 70%);
-    transition: background-image ease-in-out 0.05s;
+    // transition: background-image linear 0.25s;
 
 `;
 
