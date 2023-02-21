@@ -6,7 +6,8 @@ import {Link} from 'react-router-dom';
 const S = {};
 
 S.Nav = styled.nav`
-    height: 50px;
+    position: fixed;
+    max-height: 7%;
     width: 100%;
     padding: 2.5rem 1rem;
     margin: 0;
@@ -14,6 +15,8 @@ S.Nav = styled.nav`
     gap: 1rem;
     align-items: center;
     justify-content: flex-end;
+
+    z-index: 5;
 `; 
 
 
