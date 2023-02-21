@@ -134,7 +134,7 @@
             "creator_id": "a-004",
             "description": "Oven-baked chicken quarters marinated in a savory, ginger and garlic-infused soy sauce.",
             "link": "https://www.tiktok.com/t/ZTRGeHocu/",
-            "image": "",
+            "image": "./images/chicken_inasal.jpeg",
             "favorite": true
         },
         {
@@ -143,7 +143,7 @@
             "creator_id": "a-005",
             "description": "An East African, spice-infused rice dish.",
             "link": "https://www.sadiyahskitchen.com/recipes/somali-bariis-rice",
-            "image": "",
+            "image": "./images/somali_rice.jpeg",
             "favorite": true
         },
         {
@@ -152,7 +152,7 @@
             "creator_id": "a-015",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Dui id ornare arcu odio ut sem nulla pharetra diam. Ac orci phasellus egestas tellus rutrum.",
             "link": "https://youtu.be/-fUeIUSHqfY",
-            "image": "",
+            "image": "./images/coconut_rice.jpeg",
             "favorite": true
         },
         {
@@ -161,7 +161,7 @@
             "creator_id": "a-015",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Dui id ornare arcu odio ut sem nulla pharetra diam. Ac orci phasellus egestas tellus rutrum.",
             "link": "https://youtu.be/0Em4qwlpx-Y",
-            "image": "",
+            "image": "./images/baked_chicken.jpg",
             "favorite": false
         },
         {
@@ -170,7 +170,7 @@
             "creator_id": "a-007",
             "description": "Asain, stir fried chowmein dish.",
             "link": "https://msshiandmrhe.com/stir-fry-spaghetti/",
-            "image": "",
+            "image": "./images/chowmein_stir_fry.jpg",
             "favorite": true
         },
         {
@@ -179,7 +179,7 @@
             "creator_id": "a-005",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Dui id ornare arcu odio ut sem nulla pharetra diam. Ac orci phasellus egestas tellus rutrum.",
             "link": "https://www.tiktok.com/t/ZTRGes1na/",
-            "image": "",
+            "image": "./images/baked_tilapia.jpeg",
             "favorite": false
         },
         {
@@ -188,7 +188,7 @@
             "creator_id": "a-009",
             "description": "Crispy chicken covered with a tangy, rich lemon sauce.",
             "link": "https://www.tiktok.com/t/ZTRGe9W9L/",
-            "image": "",
+            "image": "./images/chicken_piccata.jpeg",
             "favorite": true
         },
         {
@@ -197,7 +197,7 @@
             "creator_id": "a-010",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Dui id ornare arcu odio ut sem nulla pharetra diam. Ac orci phasellus egestas tellus rutrum.",
             "link": "https://www.tiktok.com/t/ZTRGeunfe/",
-            "image": "",
+            "image": "./images/sauteed_sweet_potatoes.jpeg",
             "favorite": false
         },
         {
@@ -206,7 +206,7 @@
             "creator_id": "a-010",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Dui id ornare arcu odio ut sem nulla pharetra diam. Ac orci phasellus egestas tellus rutrum.",
             "link": "https://www.tiktok.com/t/ZTRGetnGq/",
-            "image": "",
+            "image": "./images/mushroom_tomato_pasta.jpeg",
             "favorite": false
         },
         {
@@ -224,7 +224,7 @@
             "creator_id": "a-012",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Dui id ornare arcu odio ut sem nulla pharetra diam. Ac orci phasellus egestas tellus rutrum.",
             "link": "https://moribyan.com/roasted-brussels-sprouts/",
-            "image": "",
+            "image": "./images/roasted_brussel_sprouts.jpeg",
             "favorite": true
         },
         {
@@ -233,7 +233,7 @@
             "creator_id": "a-012",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Dui id ornare arcu odio ut sem nulla pharetra diam. Ac orci phasellus egestas tellus rutrum.",
             "link": "https://moribyan.com/baked-ziti/",
-            "image": "",
+            "image": "./images/baked_ziti.jpeg",
             "favorite": true
         },
         {
@@ -242,7 +242,7 @@
             "creator_id": "a-002",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Dui id ornare arcu odio ut sem nulla pharetra diam. Ac orci phasellus egestas tellus rutrum.",
             "link": "https://www.tiktok.com/t/ZTRGdjRhx/",
-            "image": "",
+            "image": "./images/tomato_salad.jpeg",
             "favorite": false
         },
         {
@@ -251,7 +251,7 @@
             "creator_id": "a-002",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Dui id ornare arcu odio ut sem nulla pharetra diam. Ac orci phasellus egestas tellus rutrum.",
             "link": "https://www.tiktok.com/t/ZTRGecGC3/",
-            "image": "",
+            "image": "./images/butter_garlic_spinach.jpeg",
             "favorite": true
         },
         {
@@ -260,7 +260,7 @@
             "creator_id": "a-002",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Dui id ornare arcu odio ut sem nulla pharetra diam. Ac orci phasellus egestas tellus rutrum.",
             "link": "https://www.tiktok.com/t/ZTRGespbJ/",
-            "image": "",
+            "image": "./images/green_beans_salad.jpeg",
             "favorite": false
         },
         {
@@ -269,7 +269,7 @@
             "creator_id": null,
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Dui id ornare arcu odio ut sem nulla pharetra diam. Ac orci phasellus egestas tellus rutrum.",
             "link": "https://www.allrecipes.com/recipe/230103/buttery-garlic-green-beans/",
-            "image": "",
+            "image": "./images/buttery_garlic_green_beans.jpeg",
             "favorite": true
         },
         {
@@ -278,7 +278,7 @@
             "creator_id": "a-013",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Dui id ornare arcu odio ut sem nulla pharetra diam. Ac orci phasellus egestas tellus rutrum.",
             "link": "https://www.tiktok.com/t/ZTRGe73uy/",
-            "image": "",
+            "image": "./images/seared_broccoli_salad.jpeg",
             "favorite": true
         },
         {
@@ -287,16 +287,16 @@
             "creator_id": "a-014",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Dui id ornare arcu odio ut sem nulla pharetra diam. Ac orci phasellus egestas tellus rutrum.",
             "link": "https://www.tiktok.com/t/ZTRGewVmA/",
-            "image": "",
+            "image": "./images/street_corn.jpeg",
             "favorite": true
         },
         {
             "id": "r-019",
-            "name": "Smashed Roaseted Potatoes",
+            "name": "Smashed Roasted Potatoes",
             "creator_id": null,
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Dui id ornare arcu odio ut sem nulla pharetra diam. Ac orci phasellus egestas tellus rutrum.",
             "link": "https://www.tiktok.com/t/ZTRGdDD5C/",
-            "image": "",
+            "image": "./images/smashed_roasted_potatoes.jpeg",
             "favorite": false
         },
         {
@@ -305,7 +305,7 @@
             "creator_id": "a-019",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Dui id ornare arcu odio ut sem nulla pharetra diam. Ac orci phasellus egestas tellus rutrum.",
             "link": "https://www.instagram.com/reel/CWqi66QjrBi/?igshid=YmMyMTA2M2Y=",
-            "image": "",
+            "image": "./images/buttery_lemon_pasta.jpeg",
             "favorite": false
         },
         {
@@ -314,7 +314,7 @@
             "creator_id": "a-020",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Dui id ornare arcu odio ut sem nulla pharetra diam. Ac orci phasellus egestas tellus rutrum.",
             "link": "https://www.instagram.com/reel/ClFUnrpJfRo/?igshid=YmMyMTA2M2Y=",
-            "image": "",
+            "image": "./images/cajun_chicken_pasta.jpeg",
             "favorite": true
         },
         {
@@ -323,7 +323,7 @@
             "creator_id": "a-017",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Dui id ornare arcu odio ut sem nulla pharetra diam. Ac orci phasellus egestas tellus rutrum.",
             "link": "https://eatsbyramya.com/recipes/halal-cart-chicken-over-rice-for-one/",
-            "image": "",
+            "image": "./images/halal_chicken_over_rice.jpg",
             "favorite": false
         },
         {
@@ -332,7 +332,7 @@
             "creator_id": null,
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Dui id ornare arcu odio ut sem nulla pharetra diam. Ac orci phasellus egestas tellus rutrum.",
             "link": "https://www.instagram.com/tv/CdYMI1OJter/?igshid=YmMyMTA2M2Y=",
-            "image": "",
+            "image": "./images/cucumber_sesame_salad.jpeg",
             "favorite": false
         },
         {
@@ -341,7 +341,7 @@
             "creator_id": "a-021",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Dui id ornare arcu odio ut sem nulla pharetra diam. Ac orci phasellus egestas tellus rutrum.",
             "link": "https://www.tiktok.com/t/ZTRGSU32x/",
-            "image": "",
+            "image": "./images/sunflower_potatoes.jpeg",
             "favorite": false
         },
         {
@@ -350,7 +350,7 @@
             "creator_id": "a-021",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Dui id ornare arcu odio ut sem nulla pharetra diam. Ac orci phasellus egestas tellus rutrum.",
             "link": "https://www.tiktok.com/t/ZTRGSQ6vX/",
-            "image": "",
+            "image": "./images/rolled_egg_omelette.jpeg",
             "favorite": true
         },
         {
@@ -359,7 +359,7 @@
             "creator_id": "a-009",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Dui id ornare arcu odio ut sem nulla pharetra diam. Ac orci phasellus egestas tellus rutrum.",
             "link": "https://www.tiktok.com/t/ZTRGSxVXV/",
-            "image": "",
+            "image": "./images/french_omelette.jpeg",
             "favorite": false
         },
         {
@@ -368,7 +368,7 @@
             "creator_id": "a-021",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Dui id ornare arcu odio ut sem nulla pharetra diam. Ac orci phasellus egestas tellus rutrum.",
             "link": "https://www.tiktok.com/t/ZTRGSyv19/",
-            "image": "",
+            "image": "./images/strawberry_milk.jpeg",
             "favorite": false
         },
         {
@@ -377,7 +377,7 @@
             "creator_id": "a-009",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Dui id ornare arcu odio ut sem nulla pharetra diam. Ac orci phasellus egestas tellus rutrum.",
             "link": "https://www.tiktok.com/t/ZTRGSyybY/",
-            "image": "",
+            "image": "./images/potato_galette.jpeg",
             "favorite": false
         },
         {
@@ -386,7 +386,7 @@
             "creator_id": "a-001",
             "description": "Sweet, thick banana bread, sprinkled with chocolate chips and roasted walnuts.",
             "link": "https://www.tiktok.com/t/ZTRGfefrj/",
-            "image": "",
+            "image": "./images/banana_bread.jpeg",
             "favorite": true
         }
     ]

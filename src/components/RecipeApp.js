@@ -188,6 +188,7 @@ S.RecipeApp = styled.div`
     margin: 0;
     padding: 0;
     background-size: cover;
+    // overflow: hidden;
 
     ${props => transitionBackgroundTest(props)}
 
