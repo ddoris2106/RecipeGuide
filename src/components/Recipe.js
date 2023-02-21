@@ -65,6 +65,7 @@ function Recipe({recipe, author, index}) {
                         <S.Description>{recipe.description}</S.Description>
                         <S.Link
                             href={recipe.link}
+                            target="blank"
                         >Link to Recipe</S.Link>
                     </>
                 }

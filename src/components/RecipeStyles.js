@@ -90,22 +90,27 @@ S.RecipeInfo = styled.div`
     gap: 0.4rem;
     transition: justify-content 0.35s;
 
-    ${props => props.expansion === true && 
-        css`
-            justify-content: flex-start;
-            height: 60%;
-        `
-    }
-
     @media(min-width: 800px){
         width: 50%;
         justify-content: center;
     }
+
+    ${props => props.expansion === true && 
+        css`
+            @media(min-width: 800px){
+                justify-content: flex-start;
+                height: 60%;
+            }
+            
+        `
+    }
+    
     
 `;
 
 S.Title = styled.h2`
     font-size: 2.5rem;
+    line-height: 2.25rem;
     font-weight: 500;
     font-style: italic;
     color: var(--text-white);
@@ -120,11 +125,13 @@ S.Title = styled.h2`
     }
 
     @media(min-width: 500px){
-        font-size: 3.75rem;
+        font-size: 3.25rem;
+        line-height: 3rem;
     }
 
     @media(min-width: 900px){
-        font-size: 5rem;
+        font-size: 4.5rem;
+        line-height: 4rem;
     }
 
 `;
@@ -144,11 +151,11 @@ S.Author = styled.h3`
     }
 
     @media(min-width: 500px){
-        font-size: 2.875rem;
+        font-size: 2.5rem;
     }
 
     @media(min-width: 900px){
-        font-size: 3.25rem;
+        font-size: 3rem;
     }
 `;
 
@@ -175,7 +182,7 @@ S.Description = styled.p`
     }
 
     @media(min-width: 900px){
-        font-size: 2.25rem;
+        font-size: 2rem;
     }
 `;
 
@@ -190,7 +197,7 @@ S.Link = styled.a`
     }
 
     @media(min-width: 900px){
-        font-size: 2.25rem;
+        font-size: 2rem;
     }
 `;
 
