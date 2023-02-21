@@ -47,14 +47,15 @@ function Recipe({recipe, author, index}) {
     return(
         <S.Recipe key={recipe.id} delay={delay} onClick={handleClick} expansion={expansion}>
             <S.ImageContainer>
-                <img src={recipe.image}></img>
+                <img src={recipe.image} alt={`${recipe.name}`}
+                ></img>
             </S.ImageContainer>
             <S.RecipeInfo expansion={expansion}>
                 <S.Title expansion={expansion}>{recipe.name}</S.Title>
                 <S.Author expansion={expansion}>
                     {
                         name.length > 1 ?
-                        <><S.Name>by {name.first}</S.Name><S.Dot></S.Dot><S.Name>{name.last}</S.Name></> :
+                        <><S.Name>by {name.first}</S.Name> | <S.Name>{name.last}</S.Name></> :
                         <S.Name>by {name.first}</S.Name>
                     }
                 </S.Author>
@@ -62,7 +63,9 @@ function Recipe({recipe, author, index}) {
                     expansion && 
                     <>
                         <S.Description>{recipe.description}</S.Description>
-                        <S.Link>{recipe.link}</S.Link>
+                        <S.Link
+                            href={recipe.link}
+                        >Link to Recipe</S.Link>
                     </>
                 }
             </S.RecipeInfo>

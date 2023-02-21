@@ -23,21 +23,24 @@ S.Recipe = styled.div`
     top: 75px;
 
     width: 100%;
-    height: 850px;
-    height: auto;
-    padding: 1rem 2.25rem;
+    height: 65%;
+    padding: 1rem 0.75rem;
     overflow: visible;
 
     border-radius: 0.8rem;
     transition: background 0.35s;
 
-    ${props => props.expansion == true && 
-        css`background-color: rgba(242, 240, 242, 0.4);`
+    ${props => props.expansion === true && 
+        css`
+            background-color: rgba(242, 240, 242, 0.4);
+            // min-height: initial;
+            height: 85%;
+        `
     }
 
     scroll-snap-stop: always;
     scroll-snap-align: start;
-    scroll-margin-top: 200px;
+    
 
     animation: ${fadeUp} 1.25s linear forwards;
     animation-delay: ${props => props.delay}s;
@@ -45,13 +48,14 @@ S.Recipe = styled.div`
     @media(min-width: 800px){
         height: 550px;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
+        scroll-margin-top: 200px;
     }
 `;
 
 S.ImageContainer = styled.div`
-    width: 300px;
-    height: 375px;
+    width: 250px;
+    height: 500px;
     margin: 0 auto;
     padding: 0.5rem;
     overflow: hidden;
@@ -59,11 +63,13 @@ S.ImageContainer = styled.div`
     display: flex;
     justify-content: center;
 
+    background-color: rgba(242, 240, 242, 0.4);
     border-radius: 5%;
     position: relative;
 
-    @media(min-width: 400px){
+    @media(min-width: 800px){
         min-width: 300px;
+        height: 375px;
     }
 
     img{
@@ -76,72 +82,116 @@ S.ImageContainer = styled.div`
 S.RecipeInfo = styled.div`
     position: relative;
     height: 90%;
-    width: 60%;
+    width: 100%;
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 0.25rem;
+    justify-content: flex-start;
+    gap: 0.4rem;
     transition: justify-content 0.35s;
 
-    ${props => props.expansion == true && 
-        css`justify-content: flex-start;`
+    ${props => props.expansion === true && 
+        css`
+            justify-content: flex-start;
+            height: 60%;
+        `
+    }
+
+    @media(min-width: 800px){
+        width: 50%;
+        justify-content: center;
     }
     
 `;
 
 S.Title = styled.h2`
-    font-size: 3.125rem;
+    font-size: 2.5rem;
     font-weight: 500;
     font-style: italic;
     color: var(--text-white);
     transition: color 0.35s;
+    transition: text-shadow 0.35s;
 
-    ${props => props.expansion == true && 
+    ${props => props.expansion === true && 
         css`
             text-shadow: 0.1rem 0.2rem 0.3rem var(--bg-light-purple);
             color: var(--text-purple);
         `
     }
 
+    @media(min-width: 500px){
+        font-size: 3.75rem;
+    }
+
+    @media(min-width: 900px){
+        font-size: 5rem;
+    }
 
 `;
 
 S.Author = styled.h3`
-    font-size: 2.625rem;
+    font-size: 2rem;
     font-weight: normal;
     color: var(--text-white);
     transition: color 0.35s;
+    transition: text-shadow 0.35s;
 
-    ${props => props.expansion == true && 
+    ${props => props.expansion === true && 
         css`
             text-shadow: 0.1rem 0.2rem 0.3rem var(--bg-light-purple);
             color: var(--text-purple);
         `
+    }
+
+    @media(min-width: 500px){
+        font-size: 2.875rem;
+    }
+
+    @media(min-width: 900px){
+        font-size: 3.25rem;
     }
 `;
 
 S.Name = styled.span``;
 
-S.Dot = styled.span`
-    display: inline-block;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+// S.Dot = styled.span`
+//     display: inline-block;
+//     position: relative;
 
-    margin: 0 0.5rem;
-    width: 7px;
-    height: 7px;
-    border-radius: 50%;
-    background-color: var(--bg-dark-purple);
-`;
+//     margin: 0 0.5rem;
+//     width: 7px;
+//     height: 7px;
+//     border-radius: 50%;
+//     background-color: var(--bg-dark-purple);
+// `;
 
 S.Description = styled.p`
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: normal;
     color: var(--text-black);
+
+    @media(min-width: 500px){
+        font-size: 1.5rem;
+    }
+
+    @media(min-width: 900px){
+        font-size: 2.25rem;
+    }
 `;
 
-S.Link = styled.p``;
+S.Link = styled.a`
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: underline;
+    color: var(--text-black);
+
+    @media(min-width: 500px){
+        font-size: 1.5rem;
+    }
+
+    @media(min-width: 900px){
+        font-size: 2.25rem;
+    }
+`;
 
 export default S;
