@@ -22,7 +22,7 @@ function GridRecipe({recipe, author, index, expandedRecipe, setExpandedRecipe}) 
     return (
         <S.GridRecipe onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)} isHovered={isHovered} isExpanded={isExpanded} onClick={handleExpansion} className={isExpanded === true ? "gridRecipe expandedRecipe" : "gridRecipe"} >
             <S.GridRecipeImage
-                src={recipe.image}
+                src={`./recipeguide${recipe.image}`}
                 alt={recipe.name}
                 isExpanded={isExpanded}
             ></S.GridRecipeImage>
