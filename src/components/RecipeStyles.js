@@ -1,5 +1,4 @@
-import styled, {css, keyframes} from 'styled-components';
-
+import styled, {keyframes, css} from 'styled-components';
 const fadeUp = keyframes`
     0%{
         opacity: 0;
@@ -16,7 +15,7 @@ const fadeUp = keyframes`
 
 const S = {};
 
-S.Recipe = styled.div`
+S.FavoriteRecipe = styled.div`
     display: flex;
     flex-direction: column;
     position: relative;
@@ -53,7 +52,7 @@ S.Recipe = styled.div`
     }
 `;
 
-S.ImageContainer = styled.div`
+S.FavoriteImageContainer = styled.div`
     width: 250px;
     height: 500px;
     margin: 0 auto;
@@ -79,7 +78,7 @@ S.ImageContainer = styled.div`
     }
 `;
 
-S.RecipeInfo = styled.div`
+S.FavoriteRecipeInfo = styled.div`
     position: relative;
     height: 90%;
     width: 100%;
@@ -105,10 +104,9 @@ S.RecipeInfo = styled.div`
         `
     }
     
-    
 `;
 
-S.Title = styled.h2`
+S.FavoriteTitle = styled.h2`
     font-size: 2.5rem;
     line-height: 2.25rem;
     font-weight: 500;
@@ -136,7 +134,7 @@ S.Title = styled.h2`
 
 `;
 
-S.Author = styled.h3`
+S.FavoriteAuthor = styled.h3`
     font-size: 2rem;
     font-weight: normal;
     color: var(--text-white);
@@ -159,18 +157,123 @@ S.Author = styled.h3`
     }
 `;
 
-S.Name = styled.span``;
+S.GridRecipe = styled.div`
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 0.2rem;
+    background-color: rgba(236, 216, 242, 0.75);
+    justify-self: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
 
-// S.Dot = styled.span`
-//     display: inline-block;
-//     position: relative;
+    transition: transform 0.25s linear;
+    transition: filter 0.25s ease-in;
 
-//     margin: 0 0.5rem;
-//     width: 7px;
-//     height: 7px;
-//     border-radius: 50%;
-//     background-color: var(--bg-dark-purple);
-// `;
+    &:hover{
+        ${props => props.isExpanded === false &&
+            css`
+                transform: scale(1.1);
+                filter: blur(0);
+                transition: transform 0.25s linear;
+            `
+        }   
+    }
+
+    ${props => props.isHovered === false &&
+        css`
+            filter: blur(0.075rem);
+        `
+    }
+
+    ${props => props.isExpanded === true &&
+        css`
+            transform: scale(1);
+            filter: blur(0);
+            transition: transform 0.25s linear;
+            justify-content: flex-start;
+            padding-top: 2.25rem;
+        `
+    }   
+`;
+
+S.GridRecipeImage = styled.img`
+    height: 100%;
+    max-width: 150%;
+    transform: scale(1.2);
+
+    ${props => props.isExpanded === true &&
+        css`
+            max-width: 40%;
+            max-height: 35%;
+            margin-bottom: 1.25rem;
+        `
+    }   
+`;
+
+S.FavoriteIcon = styled.div`
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 1rem;
+    height: 1rem;
+    border-top-left-radius: 50%;
+
+
+    background-image: url(./icons/star-icon.svg);
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-color: var(--bg-white);
+    z-index: 3;
+
+    @media(min-width: 500px){
+        width: 2rem;
+        height: 2rem;
+    }
+    
+    @media(min-width: 900px){
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+`;
+
+S.GridTitle = styled.h2`
+    margin: 0;
+    margin-block: 0;
+    font-size: 1.25rem;
+    font-weight: 500;
+    font-style: italic;
+    color: var(--text-dark-purple);
+
+    @media(min-width: 500px){
+        font-size: 2.25rem;
+    }
+    
+    @media(min-width: 900px){
+        font-size: 3rem;
+    }
+`;
+
+S.GridAuthor = styled.h3`
+    margin: 0;
+    margin-block: 0;
+    font-size: 1.125rem;
+    font-weight: normal;
+    color: var(--text-dark-purple);
+
+    @media(min-width: 500px){
+        font-size: 1.75rem;
+    }
+    
+    @media(min-width: 900px){
+        font-size: 2.25rem;
+    }
+`;
 
 S.Description = styled.p`
     font-size: 1rem;
