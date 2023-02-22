@@ -17,7 +17,7 @@ function FeaturedRecipe({recipe, author, index}) {
     return(
         <S.FavoriteRecipe key={recipe.id} delay={delay} onClick={handleClick} expansion={expansion}>
             <S.FavoriteImageContainer>
-                <img src={`./recipeguide${recipe.image}`} alt={`${recipe.name}`}
+                <img src={recipe.image} alt={`${recipe.name}`}
                 ></img>
             </S.FavoriteImageContainer>
             <S.FavoriteRecipeInfo expansion={expansion}>
