@@ -1,7 +1,7 @@
 import React from 'react';
 import styled, {keyframes} from 'styled-components';
 
-import Recipe from './Recipe';
+import FeaturedRecipe from './FeaturedRecipe';
 import {getFavoriteRecipes, getAuthor} from '../utils/parseData';
 
 const fadeUp = keyframes`
@@ -116,13 +116,12 @@ S.Title = styled.h1`
 
 function FeaturedPage() {
     const recipes = getFavoriteRecipes();
-    console.log(recipes);
 
     return(
         <S.FeaturedPage>
             <S.Title>Recipe Hub</S.Title>
             {recipes.map((recipe, idx) => {
-                return <Recipe key={recipe.id} recipe={recipe} author={getAuthor(recipe.creator_id)} index={idx}></Recipe>;
+                return (<FeaturedRecipe key={recipe.id} recipe={recipe} author={getAuthor(recipe.creator_id)} index={idx}></FeaturedRecipe>);
             })}
         </S.FeaturedPage>
     );

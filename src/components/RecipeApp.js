@@ -9,7 +9,7 @@ import GridPage from './GridPage';
 
 
 // Function to set up keyframe animation to move the background
-const transitionBackground = (props) => {
+const transitionBackgroundTest = (props) => {
 
     // Transition background forwards
     const transitionBackground = keyframes`
@@ -111,7 +111,7 @@ const transitionBackground = (props) => {
 // Structure Taken From:
 // https://stackoverflow.com/questions/72221862/passing-a-direction-prop-into-styled-components-keyframe-component
 // https://github.com/styled-components/styled-components/issues/397
-const transitionBackgroundTest = (props) => {
+const transitionBackground = (props) => {
 
     // Transition background forwards
     const transitionBackground = keyframes`
@@ -190,7 +190,7 @@ S.RecipeApp = styled.div`
     background-size: cover;
     // overflow: hidden;
 
-    ${props => transitionBackgroundTest(props)}
+    ${props => transitionBackground(props)}
 
 
     // background-image: linear-gradient(var(--toColor1) 15%, var(--toColor2) 70%);

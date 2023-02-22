@@ -7,6 +7,7 @@
 	--text-white: var(--bg-white);
 	--text-black: #230c33;
 	--text-purple: var(--bg-dark-pink);
+	--text-dark-purple: #9a80bf;
 }
 
 html,
@@ -29,6 +30,7 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	font-family: "EB Garamond", serif;
 	background-color: var(--bg-dark-purple);
+	/* background-color: var(--bg-white); */
 }
 
 #root {
@@ -38,4 +40,31 @@ body {
 	width: 100vw;
 	height: 100vh;
 	/* box-sizing: border-box; */
+}
+
+.expandedRecipe {
+	grid-column-start: 1;
+	grid-column-end: -1;
+	grid-row-start: 1;
+	grid-row-end: span 4;
+
+	filter: blur(0);
+}
+
+.expandedRecipe .favoriteRecipeIcon {
+	top: 0;
+	background-position: center;
+	border-bottom-left-radius: 50%;
+}
+
+@media (min-width: 500px) {
+	.expandedRecipe {
+		grid-row-end: span 3;
+	}
+}
+
+@media (min-width: 900px) {
+	.expandedRecipe {
+		grid-row-end: span 3;
+	}
 }
